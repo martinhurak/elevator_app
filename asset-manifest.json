@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/elevator_app/static/css/main.2d1901b7.css",
-    "main.js": "/elevator_app/static/js/main.0abdd4eb.js",
+    "main.js": "/elevator_app/static/js/main.c0b51d8e.js",
     "index.html": "/elevator_app/index.html",
     "main.2d1901b7.css.map": "/elevator_app/static/css/main.2d1901b7.css.map",
-    "main.0abdd4eb.js.map": "/elevator_app/static/js/main.0abdd4eb.js.map"
+    "main.c0b51d8e.js.map": "/elevator_app/static/js/main.c0b51d8e.js.map"
   },
   "entrypoints": [
     "static/css/main.2d1901b7.css",
-    "static/js/main.0abdd4eb.js"
+    "static/js/main.c0b51d8e.js"
   ]
 }
