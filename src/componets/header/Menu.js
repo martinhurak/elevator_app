@@ -17,7 +17,7 @@ function Menu() {
     {
         <Navbar key={"md"} bg="dark" variant="dark" expand={"md"} className="mb-3">
           <Container fluid>
-            <Navbar.Brand as={Link} to="elevator_app/searchbar" href="#">
+            <Navbar.Brand as={Link} to="elevator_app" href="#">
                Výtahy
             </Navbar.Brand>
             <Navbar.Toggle onClick={()=>setOffCanvasMenu(true)}  aria-controls={`offcanvasNavbar-expand-${"md"}`} />
@@ -43,7 +43,7 @@ function Menu() {
                     <NavDropdown.Item onClick={()=> setOffCanvasMenu(false)} as={Link} to="elevator_app/allServices"> Zobraz zaznamy </NavDropdown.Item>
 
                   </NavDropdown>   
-                  <Nav.Link onClick={()=> setOffCanvasMenu(false)} as={Link} to="elevator_app/searchbar" > Vyhladavnie</Nav.Link>
+                  <Nav.Link onClick={()=> setOffCanvasMenu(false)} as={Link} to="elevator_app" > Vyhladavnie</Nav.Link>
                 </Nav>
                 <Outlet/>
                 <Form className="d-flex">

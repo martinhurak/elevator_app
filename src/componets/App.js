@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Menu />
         <Routes>
-          <Route path="elevator_app/searchbar" element={<SearchApp />} />
+          <Route path="elevator_app" element={<SearchApp />} />
           <Route path="elevator_app/serviceNote" element={<ServiceNote />} />
           <Route path="elevator_app/allServices" element={<AllServices />} />
         </Routes>
