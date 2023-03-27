@@ -4,18 +4,15 @@ import ServiceNote from "./body/serviceNote/ServiceNote";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AllServices from "./body/serviceNote/AllServices";
 
-
 function App() {
   return (
     <>
-
-      
       <BrowserRouter>
-      <Menu/>
-      <Routes>
-        <Route path="/elevator_searchbar" element={<SearchApp />} />
-        <Route path="/serviceNote" element={<ServiceNote />}/>
-        <Route path="/allServices" element={<AllServices/>}/>
+        <Menu />
+        <Routes>
+          <Route path="elevator_app/searchbar" element={<SearchApp />} />
+          <Route path="elevator_app/serviceNote" element={<ServiceNote />} />
+          <Route path="elevator_app/allServices" element={<AllServices />} />
         </Routes>
       </BrowserRouter>
     </>
